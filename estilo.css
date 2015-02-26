@@ -1,0 +1,35 @@
+*{
+    font-family: monospace;
+    padding: 0;
+    margin: 0;
+}
+header{
+    width: 100%;
+}
+header nav{
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+    background-color: #000000;
+    border-radius: 5px;
+}
+header nav ul{
+    overflow: hidden;
+    list-style: none;
+}
+header nav ul li{
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+header nav ul li a{
+    color: #ffffff;
+    padding: 30px;
+    font-size: 15px;
+    text-decoration: none;
+    display: block;
+}
+header nav ul li a:hover{
+    background: gray;
+    border-radius: 5px;
+}
