@@ -1,5 +1,6 @@
 *{
     font-family: monospace;
+/*    background-color: #333333;*/
     padding: 0;
     margin: 0;
 }
@@ -10,7 +11,6 @@ header nav{
     width: 90%;
     max-width: 1000px;
     margin: 20px auto;
-    background-color: #000000;
     border-radius: 5px;
 }
 header nav ul{
@@ -23,7 +23,7 @@ header nav ul li{
     text-align: center;
 }
 header nav ul li a{
-    color: #ffffff;
+    color: #000000;
     padding: 30px;
     font-size: 15px;
     text-decoration: none;
@@ -31,5 +31,47 @@ header nav ul li a{
 }
 header nav ul li a:hover{
     background: gray;
+    color: #ffffff;
     border-radius: 5px;
+}
+section{
+    clear: both;
+    padding: 20px;
+    color: #000000;
+    border-top: 1px solid;
+    text-align: center;
+    align-content: center;
+}
+label{
+    font-size: 15px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+input{
+    border: 1px solid #DBE1EB;
+    width: 100%;
+    font-size: 20px;
+    padding: 3px;
+    margin-top: 5px;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+table{
+    width: 50%;
+}
+td{
+    width: 15%;
+    text-align: left;
+}
+.elemento{
+    width: 85%;
+}
+.boton{
+    width: 25%;
+    background-color: #000000;
+    color: #ffffff;
+}
+.boton:hover{
+    background-color: gray;
+    
 }
