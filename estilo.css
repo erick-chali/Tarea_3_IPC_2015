@@ -41,6 +41,8 @@ section{
     border-top: 1px solid;
     text-align: center;
     align-content: center;
+    border-bottom: 1px solid;
+    min-height: 500px;
 }
 label{
     font-size: 15px;
@@ -82,4 +84,16 @@ img:hover{
     -o-transform: scale(1.1);
     -ms-transform: scale(1.1);
     transform: scale(1.1);
+}
+.enlace{
+    font-family: monospace;
+    text-decoration: none;
+    font-size: 50px;
+    color: #000000;
+}
+.enlace:hover{
+    color: gray;
+}
+.footer{
+    margin-top: 10px;
 }
